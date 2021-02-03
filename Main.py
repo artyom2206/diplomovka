@@ -23,6 +23,13 @@ def main(game, dqn, ddqn, dueling, both):
         ddqn = True
         dueling = True
         algo = "_DDQN+Dueling"
+        
+    if not os.path.exists("Experiences"):
+        os.mkdir("Experiences")
+    if not os.path.exists("Logs"):
+        os.mkdir("Logs")
+    if not os.path.exists("Weights"):
+        os.mkdir("Weights")
 
     log = open("Logs/log_" + game + algo + ".txt", 'a')
     episodes = int(input("Episodes? : "))
