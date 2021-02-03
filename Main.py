@@ -5,6 +5,7 @@ from Agent import Agent
 import sys
 import gc
 from time import time, sleep
+import os
 
 
 def main(game, dqn, ddqn, dueling, both):
