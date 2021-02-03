@@ -96,3 +96,7 @@
 94	TotalReward = 50.0	Steps: 423	Moving Avg: 116.01	Time: 1:8 
 95	TotalReward = 20.0	Steps: 381	Moving Avg: 68.00	Time: 1:2 
 96	TotalReward = 150.0	Steps: 953	Moving Avg: 109.00	Time: 2:33 
+1	TotalReward = 80.0	Steps: 515	Moving Avg: 80.00	Time: 1:42 
+2	TotalReward = 30.0	Steps: 377	Moving Avg: 55.00	Time: 1:11 
+3	TotalReward = 70.0	Steps: 426	Moving Avg: 62.50	Time: 1:21 
+4	TotalReward = 285.0	Steps: 1196	Moving Avg: 173.75	Time: 3:52 
