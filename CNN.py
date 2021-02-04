@@ -13,7 +13,7 @@ import tensorflow as tf
 
 class CNN:
     def __init__(self, input_dim, action_space,
-                 discount_factor=0.99, learning_rate=0.0025, batch_size=32, weights=None,
+                 discount_factor=0.99, learning_rate=0.025, batch_size=32, weights=None,
                  ddqn=False, dueling=False):
         self.discount_factor = discount_factor
         self.batch_size = batch_size
