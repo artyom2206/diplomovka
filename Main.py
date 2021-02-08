@@ -52,7 +52,7 @@ def main(game, dqn, ddqn, dueling, both):
         steps = _
         while not done:
             _ += 1
-            env.render() if episodes - episode - 1 <= 3 else None
+            # env.render() if episodes - episode - 1 <= 3 else None
 
             action = agent.action(np.asarray([current_state]))
             # print("Action Taken: ", action)
